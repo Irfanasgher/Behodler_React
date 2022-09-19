@@ -1,0 +1,37 @@
+#navbar {
+  .logo span {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .customNav {
+    align-items: center;
+
+    .navlink {
+      padding: 8px 22px;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+      &:hover {
+        color: rgb(209, 213, 219);
+      }
+    }
+  }
+  @media (max-width: 320px) {
+    .logo {
+      img {
+        width: 50px;
+      }
+      span {
+        font-size: 16px;
+        line-height: 16px;
+      }
+    }
+  }
+}
